@@ -1614,7 +1614,7 @@ function onYouTubeIframeAPIReady() {
     playerVars: {
       'playsinline': 1,
       'mute': 0,  //This enables AutoPlay() otherwise video will not play even if you call playVideo() on a target video
-      'controls' : 1,
+      'controls' : 0,
       'showInfo': 1,
       'disablekb': 1
     },
